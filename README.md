@@ -3,15 +3,6 @@
 This project implements object detection using a pretrained FasterRCNN model and a simple IoU-based multi-object tracker. It demonstrates how to detect objects in images and track them across multiple frames.
 **
 
-## Setup
-
-To run this project, you'll need:
-- Python 3.x
-- PyTorch
-- torchvision
-- OpenCV
-- NumPy
-
 If you don't have access to a GPU, it's recommended to use Google Colab with a T4 GPU runtime.
 
 ## Object Detection
