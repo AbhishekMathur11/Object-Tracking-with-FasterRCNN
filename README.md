@@ -32,15 +32,15 @@ This tracker links detections across frames based on their Intersection-over-Uni
 ## Results
 The base object detector provides output like so:
 
-[Example Image](images/multicar.png)
+![Example Image](images/multicar.png)
 
 For images having multiple objects, they get tracked at once
 
-[Example Image](images/car_p_1.png) [Example Image](images/car_p_2.png) 
+![Example Image](images/car_p_1.png) ![Example Image](images/car_p_2.png) 
 
 When the bounding boxes overlap, multi object tracking is facilitated
 
-[Example Image](images/multi_1.png) [Example Image](images/multi_2.png)
+![Example Image](images/multi_1.png) ![Example Image](images/multi_2.png)
 
 ## Key Components:
 iou() function: Computes IoU between two bounding boxes
