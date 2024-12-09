@@ -42,6 +42,8 @@ When the bounding boxes overlap, multi object tracking is facilitated
 
 ![Example Image](images/multi_1.png) ![Example Image](images/multi_2.png)
 
-## Key Components:
+### Key Components:
+
 iou() function: Computes IoU between two bounding boxes
+
 track_iou() function: Implements the IoU-based tracking algorithm
